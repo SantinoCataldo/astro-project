@@ -3,10 +3,12 @@ import Logo from "../svg/AstroLogo.astro";
 import Botoncito from "./Botoncito.astro";
 ---
 
-<section class="h-screen flex flex-col justify-center items-center">
-    <div class="animate-slide-in-top">
-        <Logo />
+<section class="h-screen flex justify-around items-center">
+    <div class="flex flex-col items-center">
+        <div class="animate-slide-in-top">
+            <Logo />
+        </div>
+        <Botoncito>2021 (Beta) || 2022 (Lanzamiento)</Botoncito>
     </div>
-    <Botoncito>2021 (Beta) || 2022 (Lanzamiento)</Botoncito>
+    <img src="../../public/astronaut.webp" alt="" />
 </section>
-
