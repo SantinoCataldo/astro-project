@@ -1,0 +1,42 @@
+---
+import IconBrandAngular  from '../svg/IconBrandAngular.astro'
+import IconBrandReact  from '../svg/IconBrandReact.astro'
+import IconBrandVue from '../svg/IconBrandVue.astro'
+import IconBrandSvelte from '../svg/IconBrandSvelte.astro'
+
+---
+<section class="flex mb-14 justify-center items-center gap-5">
+<button class="icon-button b1"><IconBrandAngular /></button>
+<button class="icon-button b2"><IconBrandReact /></button>
+<button class="icon-button b3"> <IconBrandVue /></button>
+<button class="icon-button b4"><IconBrandSvelte /></button>
+</section>
+
+<style>
+  .icon-button {
+    padding: 20px;
+    border: 1px solid #4fc45f99;
+    border-radius: 1em;
+    background-color: #0d3d1555;
+  }
+
+  .b1{
+    background: #dc322f54;
+    border: 1px solid #dc322f99;
+  }
+
+  .b2{
+    background: #00D8FF54;
+    border: 1px solid #00D8FF99;
+  }
+
+  .b3{
+    background: #539E4354;
+    border: 1px solid #539E4399;
+  }
+
+  .b4{
+    background: #DE4C3654;
+    border: 1px solid #DE4C3699;
+  }
+</style>
